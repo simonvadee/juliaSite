@@ -1,0 +1,109 @@
+li.top_level {
+    font-weight: bold;
+}
+
+ b, strong { font-weight: bold; }
+  i, em { font-style: italic; }
+  html body #using {
+  height: auto!important;
+  left: auto!important;
+  line-height: 1!important;
+  margin: 0!important;
+  opacity: 1!important;
+  padding: 0!important;
+  position: fixed!important;
+  text-indent: 0!important;
+  top: auto!important;
+  visibility: visible!important;
+  width: auto!important;
+  z-index: 2147483647!important;
+  -webkit-transform: none!important;
+  -moz-transform: none!important;
+  -ms-transform: none!important;
+  -o-transform: none!important;
+  transform: none!important;
+  
+  color: #666666!important;
+  
+  font-size: 10px;
+  font-family: verdana, Arial, sans-serif!important;
+  display:block!important;
+  
+  
+  bottom: 10px!important;
+  
+  
+  
+  
+  right: 10px!important;
+  
+  
+  word-spacing: 0px!important;
+  }
+  html body #using::before,
+  html body #using::after {
+  display: none!important;
+  }
+  #using a {
+  opacity: 1!important;
+  z-index: 2147483647!important;
+  display:inline!important;
+  position:static!important;
+  text-decoration: underline!important;
+  
+  color: #666666!important;
+  
+  }
+  #using a:hover {
+  color:red!important;
+  text-decoration: underline!important;
+  }
+
+
+/* Image Protection */
+#image_protection_notice {
+color: #000;
+padding: 8px 8px;
+width: 200px;
+font-size: 11px;
+font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+background: #fff;
+box-shadow: 0 0 5px #222;
+-webkit-box-shadow: 0 0 5px #222;
+-moz-box-shadow: 0 0 5px #222;
+box-shadow: 0 0 5px #222
+}
+
+@font-face {
+    font-family: GothamBlack;
+    src: url(GothamBlack.tff);
+}
+
+.welcome {
+	padding-top:150px;
+	position: relative;
+	width:100%;
+}
+
+.welcome a	{
+	text-decoration: none;
+}
+
+.welcome p {
+	/*padding-top: 30px;*/
+	margin-right: 50px; 
+	text-align: right;
+	width:80%;
+	position: absolute;
+	font-size: 400%;
+	font-family: GothamBlack;
+	color:black;
+}
+
+.copyrights {
+	font-size:x-small;
+}
